@@ -319,3 +319,236 @@ body {
         margin-top: -25px;
     }
 }
+
+
+
+/* Authentication pages */
+
+.auth-body {
+    background-color: #f4f7fc;
+}
+
+.auth-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
+
+.auth-brand-section {
+    background: linear-gradient(135deg, #071a3a 0%, #10316b 58%, #1553a6 100%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 9%;
+}
+
+.auth-logo,
+.mobile-auth-logo {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.auth-logo span,
+.mobile-auth-logo span {
+    color: #80b6ff;
+}
+
+.auth-brand-content {
+    margin: auto 0;
+    max-width: 520px;
+}
+
+.auth-badge {
+    background-color: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 50px;
+    color: #d9eaff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+    padding: 9px 15px;
+}
+
+.auth-brand-content h1 {
+    font-size: clamp(37px, 4vw, 57px);
+    line-height: 1.12;
+    margin-bottom: 21px;
+}
+
+.auth-brand-content > p {
+    color: #c9ddfb;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 475px;
+}
+
+.auth-benefits {
+    list-style: none;
+    margin-top: 31px;
+}
+
+.auth-benefits li {
+    color: #e6f1ff;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.auth-form-section {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 45px 7%;
+}
+
+.auth-form-box {
+    max-width: 435px;
+    width: 100%;
+}
+
+.mobile-auth-logo {
+    color: #14213d;
+    display: none;
+    margin-bottom: 45px;
+}
+
+.mobile-auth-logo span {
+    color: #2979ff;
+}
+
+.form-small-heading {
+    color: #2979ff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    margin-bottom: 13px;
+}
+
+.auth-form-box h2 {
+    color: #172033;
+    font-size: 34px;
+    margin-bottom: 11px;
+}
+
+.form-description {
+    color: #68758d;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.form-group {
+    margin-bottom: 19px;
+}
+
+.form-group label {
+    color: #263550;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    background-color: #fbfcff;
+    border: 1px solid #dce4f0;
+    border-radius: 8px;
+    color: #23314a;
+    font-size: 15px;
+    outline: none;
+    padding: 13px 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+}
+
+.form-group input:focus {
+    border-color: #2979ff;
+    box-shadow: 0 0 0 3px rgba(41, 121, 255, 0.14);
+}
+
+.auth-submit-button {
+    background-color: #2979ff;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 6px;
+    padding: 14px;
+    transition: background-color 0.2s ease;
+    width: 100%;
+}
+
+.auth-submit-button:hover {
+    background-color: #1265ef;
+}
+
+.auth-switch-text {
+    color: #68758d;
+    font-size: 14px;
+    margin-top: 23px;
+    text-align: center;
+}
+
+.auth-switch-text a {
+    color: #2979ff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.back-home-link {
+    color: #68758d;
+    display: block;
+    font-size: 14px;
+    margin-top: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-home-link:hover {
+    color: #2979ff;
+}
+
+@media (max-width: 850px) {
+    .auth-page {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-brand-section {
+        display: none;
+    }
+
+    .auth-form-section {
+        min-height: 100vh;
+    }
+
+    .mobile-auth-logo {
+        display: inline-block;
+    }
+}
+
+
+.hero-register-link {
+    background-color: #ffffff;
+    border: 1px solid #d5e3fb;
+    border-radius: 8px;
+    color: #1e63d5;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 13px 20px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.hero-register-link:hover {
+    background-color: #eaf2ff;
+    border-color: #2979ff;
+    transform: translateY(-2px);
+}

@@ -17,12 +17,13 @@
                 🛡 Phish<span>Shield</span>
             </a>
 
-            <div class="nav-links">
-                <a href="index.php">Home</a>
-                <a href="#features">Features</a>
-                <a href="#how-it-works">How It Works</a>
-                <a href="#footer">About</a>
-            </div>
+           <div class="nav-links">
+    <a href="index.php">Home</a>
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#footer">About</a>
+    <a href="register.php">Register</a>
+</div>
 
         </div>
     </nav>
@@ -56,6 +57,9 @@
                     🔒 Your privacy matters. Scan suspicious links safely.
                 </p>
 
+                <a href="register.php" class="hero-register-link">
+    Create Your Free Account
+</a> 
             </div>
         </section>
 
